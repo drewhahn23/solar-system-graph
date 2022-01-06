@@ -111,7 +111,7 @@ function App() {
     pivotPluto.add(plutoSphere);
 
 
-    camera.position.z = 50;
+    camera.position.z = 35;
     
     var animate = function () {
       requestAnimationFrame( animate );
@@ -140,7 +140,6 @@ function App() {
 
       
     <ol>
-      <ol>Hi</ol>
       <GetData></GetData>
     <ol><div ref={mountRef}></div></ol>
 
